@@ -1,5 +1,12 @@
-import { ActionIcon, Button, Group, Text, Title, useMantineColorScheme } from '@mantine/core';
-import { IconHeartRateMonitor, IconMoonStars, IconSun } from '@tabler/icons';
+import {
+  ActionIcon,
+  Button,
+  Group,
+  Text,
+  Title,
+  useMantineColorScheme,
+} from '@mantine/core';
+import { IconHeartbeat, IconMoonStars, IconSun } from '@tabler/icons';
 import { useRouter } from 'next/router';
 import useStyles from '../../styles';
 
@@ -51,7 +58,7 @@ const Welcome = () => {
           target="_blank"
           rel="noopener noreferrer"
           onClick={() => router.push('dashboard')}
-          leftIcon={<IconHeartRateMonitor size={18} />}
+          leftIcon={<IconHeartbeat size={28} color="pink" />}
           styles={(theme) => ({
             root: {
               backgroundColor: '#00acee',

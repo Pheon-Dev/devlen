@@ -18,7 +18,7 @@ export default createStyles((theme) => ({
     letterSpacing: -8,
 
     [theme.fn.smallerThan('md')]: {
-      fontSize: 30,
+      fontSize: 20,
     },
   },
 }));
