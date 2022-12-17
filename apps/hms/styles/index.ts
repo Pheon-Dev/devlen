@@ -11,4 +11,14 @@ export default createStyles((theme) => ({
       fontSize: 50,
     },
   },
+  header: {
+    color: theme.colorScheme === 'dark' ? theme.white : theme.black,
+    fontSize: 100,
+    fontWeight: 900,
+    letterSpacing: -8,
+
+    [theme.fn.smallerThan('md')]: {
+      fontSize: 30,
+    },
+  },
 }));

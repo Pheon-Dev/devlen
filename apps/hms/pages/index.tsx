@@ -1,6 +1,4 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { Dashboard } from '../components/Dashboard/Dashboard';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+import { Welcome } from '../components';
 
 export default function HomePage() {
   return (

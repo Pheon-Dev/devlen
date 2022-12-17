@@ -5,13 +5,17 @@ import {
   Header,
   Footer,
   Aside,
+  Title,
   Text,
   MediaQuery,
   Burger,
   useMantineTheme,
 } from '@mantine/core';
+import useStyles from '../../styles';
+/* import {MainLinks} from '../../components'; */
 
 export default function AppShellDemo() {
+  const { classes } = useStyles();
   const theme = useMantineTheme();
   const [opened, setOpened] = useState(false);
   return (
@@ -53,7 +57,9 @@ export default function AppShellDemo() {
               />
             </MediaQuery>
 
-            <Text>HMS</Text>
+            <Title className={classes.header} align="center">
+              <Text>HMS</Text>
+            </Title>
           </div>
         </Header>
       }

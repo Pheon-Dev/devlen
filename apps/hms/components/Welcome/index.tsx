@@ -1,11 +1,9 @@
-import { Title, Text, Anchor, Button, Group } from '@mantine/core';
-import useStyles from './Welcome.styles';
-import { IconHeartRateMonitor } from '@tabler/icons';
+import { ActionIcon, Button, Group, Text, Title, useMantineColorScheme } from '@mantine/core';
+import { IconHeartRateMonitor, IconMoonStars, IconSun } from '@tabler/icons';
 import { useRouter } from 'next/router';
-import { ActionIcon, useMantineColorScheme } from '@mantine/core';
-import { IconSun, IconMoonStars } from '@tabler/icons';
+import useStyles from '../../styles';
 
-export function Welcome() {
+const Welcome = () => {
   const { classes } = useStyles();
   const router = useRouter();
   const { colorScheme, toggleColorScheme } = useMantineColorScheme();
@@ -77,4 +75,6 @@ export function Welcome() {
       </Group>
     </>
   );
-}
+};
+
+export default Welcome;
