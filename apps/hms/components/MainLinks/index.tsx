@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconMicroscope, IconHeartRateMonitor, IconFaceMask, IconVaccineBottle, IconEmpathize, IconStethoscope, IconEmergencyBed, IconOld, IconCheckupList, IconFirstAidKit, IconVirusSearch, IconHeartbeat, IconEyeCheck, IconHealthRecognition } from '@tabler/icons';
+import { IconMicroscope, IconHeartRateMonitor, IconFaceMask, IconVaccineBottle, IconStethoscope, IconEmergencyBed, IconOld, IconCheckupList, IconFirstAidKit, IconVirusSearch, IconHeartbeat, IconEyeCheck, IconHealthRecognition, IconNurse } from '@tabler/icons';
 import { ThemeIcon, UnstyledButton, Group, Text } from '@mantine/core';
 import { useRouter } from 'next/router';
 
@@ -49,7 +49,7 @@ const data = [
   { icon: <IconOld size={16} />, color: 'green', label: 'Outpatient', path: "/outpatient" },
   { icon: <IconFaceMask size={16} />, color: 'gray', label: 'Op. Theatre', path: "/operations-theatre" },
   { icon: <IconFirstAidKit size={16} />, color: 'yellow', label: 'Materials', path: "/materials" },
-  { icon: <IconEmpathize size={16} />, color: 'grape', label: 'Nursing', path: "/nursing" },
+  { icon: <IconNurse size={16} />, color: 'grape', label: 'Nursing', path: "/nursing" },
   { icon: <IconVaccineBottle size={16} />, color: 'orange', label: 'Pharmaceutical', path: "/pharmaceutical" },
   { icon: <IconVirusSearch size={16} />, color: 'pink', label: 'Pathology', path: "/pathology" },
   { icon: <IconHealthRecognition size={16} />, color: 'indigo', label: 'Cardiology', path: "/cardiology" },
