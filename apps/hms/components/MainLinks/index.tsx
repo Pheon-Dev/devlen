@@ -51,9 +51,10 @@ const data = [
   { icon: <IconFirstAidKit size={16} />, color: 'yellow', label: 'Materials', path: "/materials" },
   { icon: <IconNurse size={16} />, color: 'grape', label: 'Nursing', path: "/nursing" },
   { icon: <IconVaccineBottle size={16} />, color: 'orange', label: 'Pharmaceutical', path: "/pharmaceutical" },
-  { icon: <IconVirusSearch size={16} />, color: 'pink', label: 'Pathology', path: "/pathology" },
-  { icon: <IconHealthRecognition size={16} />, color: 'indigo', label: 'Cardiology', path: "/cardiology" },
-  { icon: <IconEyeCheck size={16} />, color: 'cyan', label: 'Ophthalmology', path: "/ophthalmology" },
+  { icon: <IconHeartbeat size={16} />, color: 'pink', label: 'Med. Fields', path: "/fields" },
+  /* { icon: <IconVirusSearch size={16} />, color: 'pink', label: 'Pathology', path: "/pathology" }, */
+  /* { icon: <IconHealthRecognition size={16} />, color: 'indigo', label: 'Cardiology', path: "/cardiology" }, */
+  /* { icon: <IconEyeCheck size={16} />, color: 'cyan', label: 'Ophthalmology', path: "/ophthalmology" }, */
 ];
 
 const MainLinks = () => {
