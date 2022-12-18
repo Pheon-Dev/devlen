@@ -1,6 +1,6 @@
 const Page = () => {
   return (
-    <div>Outpatient</div>
+    <div>Laboratory</div>
   )
 }
 export default Page

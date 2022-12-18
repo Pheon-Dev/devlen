@@ -14,12 +14,14 @@ const MainLink = ({ icon, color, label, path }: MainLinkProps) => {
   const router = useRouter()
   return (
     <UnstyledButton
+      onClick={() => router.push(`${path}`)}
       sx={(theme) => ({
         display: 'block',
         width: '100%',
         padding: theme.spacing.xs,
         borderRadius: theme.radius.sm,
         color: theme.colorScheme === 'dark' ? theme.colors.dark[0] : theme.black,
+        backgroundColor: router.pathname === path ? theme.colors.dark[6] : "",
 
         '&:hover': {
           backgroundColor:
@@ -27,7 +29,7 @@ const MainLink = ({ icon, color, label, path }: MainLinkProps) => {
         },
       })}
     >
-      <Group onClick={() => router.push(`${path}`)}>
+      <Group>
         <ThemeIcon color={color} variant="light">
           {icon}
         </ThemeIcon>
