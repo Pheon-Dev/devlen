@@ -1,12 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const Page = props => {
+const Page = () => {
   return (
     <div>Cardiology</div>
   )
 }
-
-Page.propTypes = {}
-
 export default Page
