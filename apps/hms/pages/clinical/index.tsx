@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Clinical = () => {
+const Page = () => {
   return (
     <div>
       Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim labore culpa sint
@@ -14,4 +14,4 @@ const Clinical = () => {
     </div>
   );
 };
-export default Clinical
+export default Page;

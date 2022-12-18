@@ -3,10 +3,13 @@ import PropTypes from 'prop-types'
 
 const Page = () => {
   return (
-    <div>Dashboard</div>
+    <div>Outpatient</div>
   )
 }
 
 Page.propTypes = {}
 
 export default Page
+
+
+

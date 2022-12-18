@@ -1,9 +1,12 @@
-import { Welcome } from '../components';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-export default function HomePage() {
+const Page = () => {
   return (
-    <>
-      <Welcome />
-    </>
-  );
+    <div>Page</div>
+  )
 }
+
+Page.propTypes = {}
+
+export default Page

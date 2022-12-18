@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-const Page = () => {
+const Page = props => {
   return (
-    <div>Dashboard</div>
+    <div>Cardiology</div>
   )
 }
 
